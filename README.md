@@ -1,14 +1,12 @@
 # Home-Prices-Prediction
 
+![HomeScreen](assets/BHP_website.png)
+
 ### description
 A Webpage built using Python Flask server, Nginx and a Machine Learning Regression model that predicts home prices. The website is built in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price. 
 
-
-### Screenshot
-![Home](assets/BHP_website.png)
-
 ### Demo 
-![Home](assets/BHP.gif)
+![Demo](assets/BHP.gif)
 
 ### Dataset 
 The dataset used to train and test the model is downloaded from kaggle : https://www.kaggle.com/amitabhajoy/bengaluru-house-price-data
