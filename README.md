@@ -5,7 +5,7 @@ A Webpage built using Python Flask server, Nginx and a Machine Learning Regressi
 
 
 ### Screenshot
-![Home](assets/BHP_website.PNG)
+![Home](assets/BHP_website.png)
 
 ### Demo 
 ![Home](assets/BHP.gif)
