@@ -1,0 +1,85 @@
+body{
+	margin: 15px 0;
+	font-family: open sans;
+	text-align: center;
+	background-color:  #fbeee6;
+}
+
+.card{
+	background-color: white;
+	padding: 30px 10vw;
+	margin: auto;
+	width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 4px;
+}
+
+h1{
+	margin-bottom: 50px; 
+}
+
+h3{
+	margin: 30px auto 5px auto;
+}
+
+input[type='text'],select,button{
+	padding: 8px;
+	font-size: medium;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.label{
+	font-size: medium;
+}
+
+button{
+	margin : 50px 0;
+	color: white;
+	background-color:  #ba4a00 ;
+	border:none;
+	padding: 10px 35px;
+}
+
+.radio {
+	margin:auto;
+	width: max-content;
+/*	background: #454857;*/
+	padding: 4px;
+	border-radius: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+}
+
+.radio input {
+	width: auto;
+	height: 100%;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 4px 8px;
+/*	background: #454857;*/
+	color: #bdbdbdbd;
+	font-size: 14px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	transition: all 100ms linear;
+}
+
+.radio input:checked {
+	background-image: linear-gradient(180deg, #95d891, #74bbad);
+	color: #fff;
+	box-shadow: 0 1px 1px #0000002e;
+	text-shadow: 0 1px 0px #79485f7a;
+}
+
+.radio input:before {
+	content: attr(label);
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
